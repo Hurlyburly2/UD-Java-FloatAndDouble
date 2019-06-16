@@ -13,5 +13,19 @@ public class Main {
         System.out.println("myIntValue = " + myIntValue);
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
+
+        // Convert a given number of pounds to kilograms
+        // 1.   Create a variable to store the number of pounds
+        // 2.   Calculate the number of Kilograms for the number above and store it in a variable
+        // 3.   Print out the result
+
+        // NOTE:    1 pound is equal to 0.45359237 kilograms
+
+        double kiloGramConversion = 0.45359237d;
+
+        double numberOfPounds = 10d;
+        double numberOfKilograms = numberOfPounds * kiloGramConversion;
+
+        System.out.println(numberOfPounds + " Pounds = " + numberOfKilograms + " Kilograms");
     }
 }
